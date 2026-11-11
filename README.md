@@ -13,7 +13,7 @@ These camera captures show the reference EX5 Pro setup after each pictured Windo
 | <img src="demo/cool-wallpaper.jpg" alt="Blue-green wallpaper" width="480"> | <img src="demo/cool-pc.jpg" alt="PC lighting for the blue-green wallpaper" width="380"> |
 | <img src="demo/warm-wallpaper.jpg" alt="Red-orange wallpaper" width="480"> | <img src="demo/warm-pc.jpg" alt="PC lighting for the red-orange wallpaper" width="380"> |
 
-The photos show a locally calibrated setup. The warm example includes a wallpaper-specific red/orange fan adjustment that is **not** in the public package, so its exact result may differ. The LCD background and metrics in the pictures are controlled by a separate application and are not included in Wallpaper Aura. Camera exposure and wiring also affect the appearance.
+The photos show a locally calibrated setup. The warm example includes a wallpaper-specific red/orange fan adjustment that is **not** in the public package, so its exact result may differ. The LCD background and metrics are controlled by the separate [LCD6-HD component](lcd/README.md), not by the RGB package. Camera exposure and wiring also affect the appearance.
 
 The demo wallpapers were supplied for illustration; their original licensing has not been verified. Do not assume the software's MIT license grants rights to those images.
 
@@ -69,7 +69,7 @@ wallpaper-aura preview C:\path\to\image.png --config C:\path\to\your-profile.jso
 
 ## Privacy and scope
 
-The image is processed locally and is not uploaded. The `run` command logs wallpaper paths to its console. This repository does not contain users' wallpapers. The separate LCD metrics/background controller is not part of this package. No warranty is provided; check OpenRGB compatibility and your ARGB wiring before configuring a controller.
+The image is processed locally and is not uploaded. The `run` command logs wallpaper paths to its console. The repository includes user-provided demo wallpaper previews. The [LCD6-HD component](lcd/README.md) is separate from the RGB Python package. No warranty is provided; check OpenRGB compatibility and your ARGB wiring before configuring a controller.
 
 ## Development
 

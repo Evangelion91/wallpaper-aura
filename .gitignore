@@ -4,3 +4,7 @@ __pycache__/
 build/
 dist/
 .venv/
+bin/
+obj/
+logs/
+wallpaper-current.jpg
