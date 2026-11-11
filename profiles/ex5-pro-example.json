@@ -1,0 +1,16 @@
+{
+  "device_name": "ASUS ROG STRIX Z790-A GAMING WIFI D4",
+  "board_led_count": 4,
+  "header_led_counts": [93, 60, 60],
+  "fans": [
+    {"header": 0, "start": 0, "length": 8},
+    {"header": 0, "start": 8, "length": 8},
+    {"header": 0, "start": 16, "length": 8}
+  ],
+  "gpu_header": 2,
+  "gpu_segments": [[0, 6], [6, 20]],
+  "board_brightness": 0.95,
+  "gpu_brightness": 0.95,
+  "mirror": true,
+  "allow_resize": false
+}

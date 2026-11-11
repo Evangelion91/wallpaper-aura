@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wallpaper-aura"
+version = "0.1.0"
+description = "Map Windows wallpaper colours to OpenRGB addressable lighting"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = ["Pillow>=10,<14", "comtypes>=1.4,<2", "openrgb-python>=0.3.8,<0.4"]
+
+[project.scripts]
+wallpaper-aura = "wallpaper_aura.cli:main"
+
+[tool.setuptools]
+packages = ["wallpaper_aura"]
+
+[tool.setuptools.package-data]
+wallpaper_aura = ["*.json"]
