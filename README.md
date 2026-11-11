@@ -4,6 +4,19 @@ Wallpaper Aura maps the colours and spatial gradient of the current Windows wall
 
 The included **EX5 Pro example is a wiring profile, not universal hardware detection**. It was observed on a Phanteks EX5 Pro connected to an ASUS ROG STRIX Z790-A GAMING WIFI D4, with three fans on the first ARGB header and a separately connected GPU on the third. Physical LEDs can share an address, and the actual fan wiring and LED counts may be different. The app cannot infer your wiring or the number of physical LEDs.
 
+## Demo
+
+These camera captures show the reference EX5 Pro setup after each pictured Windows wallpaper was applied. The case is to the right of the monitor, so the lighting samples the wallpaper mirrored horizontally. Photos are cropped camera frames; the images are not simulated renders.
+
+| Wallpaper | Case lighting |
+|:---:|:---:|
+| <img src="demo/cool-wallpaper.jpg" alt="Blue-green wallpaper" width="480"> | <img src="demo/cool-pc.jpg" alt="PC lighting for the blue-green wallpaper" width="380"> |
+| <img src="demo/warm-wallpaper.jpg" alt="Red-orange wallpaper" width="480"> | <img src="demo/warm-pc.jpg" alt="PC lighting for the red-orange wallpaper" width="380"> |
+
+The photos show a locally calibrated setup. The warm example includes a wallpaper-specific red/orange fan adjustment that is **not** in the public package, so its exact result may differ. The LCD background and metrics in the pictures are controlled by a separate application and are not included in Wallpaper Aura. Camera exposure and wiring also affect the appearance.
+
+The demo wallpapers were supplied for illustration; their original licensing has not been verified. Do not assume the software's MIT license grants rights to those images.
+
 ## Requirements
 
 - Windows 10/11 and Python 3.10 or newer (64-bit recommended).
@@ -65,4 +78,4 @@ py -m pip install -e .
 py -m unittest discover -s tests -v
 ```
 
-Licensed under MIT. Dependencies have their own licenses.
+Source code is licensed under MIT. Dependencies have their own licenses; demo image rights are separate as described above.
